@@ -1,5 +1,7 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const score = document.querySelector(".score");
+let count = 0;
 
 const jump = () => {
     mario.classList.add("jump");
@@ -30,8 +32,12 @@ const loop = setInterval(() => {
 
         clearInterval(loop);
     }
+
+    count++;
+    score.innerHTML = `SCORE: ${count}`;
+
 }, 10);
 
-    
 
 document.addEventListener("keydown", jump);
+
