@@ -2,6 +2,7 @@
 
 ## Deploy do Projeto:
 
+https://63811efdda05a667884a4cda--fantastic-croissant-e2223a.netlify.app/
 
 ## Jogo com animação em CSS
 
